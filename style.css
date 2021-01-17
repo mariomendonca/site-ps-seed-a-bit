@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito';
+}
+
+.logo {
+  height: 65px;
+  width: auto;
+}
+
+.button {
+  height: 40px;
+  width: 200px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  background: #3D4A84;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transition: all 300ms ease;
+}
+
+.button:hover {
+  background:  #272738;
+  cursor: pointer;
+}
+
+#navbar {
+  height: 80px;
+  width: 100%;
+  background: #272738;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+}
+
+#navbar .navbar-content {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar .navbar-content ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+#navbar .navbar-content ul li {
+  color: white;
+  margin-left: 50px;
+}
+
+#home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(assets/home.jfif) center center/cover;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: color;
+}
+
+#home .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home .home-container h2 {
+  font-size: 65px;
+  color: white;
+  margin: 60px 0;
+  max-width: 430px;
+  text-align: center;
+}
+
+#instituicao {
+  height: 100vh;
+  width: 100%;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+#instituicao .instituicao-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+#instituicao .instituicao-container h2{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+#instituicao .instituicao-container .instituicao-content {
+  display: flex;
+
+}
+
+#footer {
+  height: 250px;
+  width: 100%;
+  background: #272738;
+  display: flex;
+  justify-content: center;
+}
+
+#footer .footer-content {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .footer-content ul {
+  list-style: none;
+}
+
+#footer .footer-content .info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer-content p {
+  margin: 5px 0;
+  color: white;
+}
+
+#footer .footer-content ul li {
+  color: white;
+  font-size: 14px;
+  margin: 20px;
+}
+
+#footer .footer-content ul li i{
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+#footer .footer-content .logo {
+  height: 150px;
+  width: auto;
+}
