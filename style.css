@@ -68,7 +68,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(assets/home.jfif) center center/cover;
+  background: url(assets/imagens/banner-1.jpg) center center/cover;
+  /* background: url(assets/home.jfif) center center/cover; */
   background-color: rgba(0,0,0,0.6);
   background-blend-mode: color;
 }
@@ -107,12 +108,22 @@ body {
   display: flex;
   justify-content: center;
   font-size: 35px;
+  margin-bottom: 100px;
 }
 
 #instituicao .instituicao-container .instituicao-content {
   display: flex;
-  
+  justify-content: space-between;
 }
+
+#instituicao .instituicao-container .instituicao-content .accor{
+
+}
+
+#instituicao .instituicao-container .instituicao-content img {
+  width: 400px;
+}
+
 /* inscrição */
 
 #inscricao {
@@ -127,13 +138,13 @@ body {
 #inscricao .inscricao-content {
   width: 85%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #inscricao .inscricao-content img{
   height: 400px;
   width: auto;
-  margin-right: 100px;
+  /* margin-right: 100px; */
 }
 
 #inscricao h2 {
@@ -144,7 +155,7 @@ body {
 }
 
 #inscricao .inscricao-content .inscricao-info {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
